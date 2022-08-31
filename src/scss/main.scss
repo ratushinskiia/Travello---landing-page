@@ -1,0 +1,32 @@
+@import './normalize/normalize-no-comments.scss';
+@import './vars/vars.scss';
+@import './chunks/*.scss';
+
+body {
+    background-color: $background-gray;
+    color: $white;
+}
+
+a, a:link, a:visited {
+    text-decoration: none;
+    color: $white;
+}
+
+.container {
+    max-width: 1920px;
+    margin: auto;
+    background-color: $background-black;
+}
+.content {
+    padding: 0 20px;
+    margin: auto;
+}
+
+.logo {
+    font-size: 36px;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 45px;
+}
+
