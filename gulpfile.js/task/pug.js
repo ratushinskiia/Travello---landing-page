@@ -24,10 +24,14 @@ const pug = function () {
                 message: error.message
             }))
         }))
-        .pipe(gulpPug())
+        .pipe(gulpPug({
+            data: {
+                headerFeatures: require("../data/header-features.json")
+            }
+        }))
         .pipe(webpHtml())        
         .pipe(gulpIf(app.isDev, prettyHtml()))
         .pipe(dest(path.pug.dest))
 }
-
+""
 module.exports = pug;

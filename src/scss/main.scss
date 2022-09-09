@@ -1,6 +1,10 @@
 @import './normalize/normalize-no-comments.scss';
 @import './vars/vars.scss';
-@import './chunks/*.scss';
+
+*, *:before, *:after {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
 
 body {
     background-color: $background-gray;
@@ -18,8 +22,12 @@ a, a:link, a:visited {
     background-color: $background-black;
 }
 .content {
-    padding: 0 20px;
-    margin: auto;
+    margin: 0 auto;
+}
+
+.button {
+    border: none;
+    cursor: pointer;
 }
 
 .logo {
@@ -30,3 +38,4 @@ a, a:link, a:visited {
     line-height: 45px;
 }
 
+@import './chunks/*.scss';

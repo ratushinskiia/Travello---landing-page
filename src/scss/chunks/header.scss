@@ -1,3 +1,5 @@
+
+// Contacts
 .header-top {
     display: flex;
     justify-content: space-between;
@@ -49,14 +51,13 @@
     }
 }
 
+// Navigation
 .header-content {
     background-position: center center;
     background-image: url("../img/header-bg.jpg");
     background-size: cover;
     position: relative;
-    height: calc(100vh - 68px);
 }
-
 .header {
     &-navigation {
         display: flex;
@@ -64,11 +65,14 @@
         height: 100px;
         align-items: center;
         max-width: 1717px;
+        margin-bottom: 123px;
         &__element {
             display: flex;
             align-items: center;
             justify-content: space-between;
             min-width: 582px;
+        }
+        &__link {
             text-transform: uppercase;
             font-size: 17px;
             font-family: "Open Sans", sans-serif;
@@ -77,5 +81,129 @@
         &__icon picture {
             display: flex;
         }
+    }
+}
+
+// App
+.header-app {
+    max-width: 600px;
+    margin-bottom: 130px;
+    text-align: center;
+    padding-bottom: 76px;
+    &__subtitle {
+        text-transform: uppercase;
+        font-family: 'Arsenal';
+        font-size: 36px;
+        line-height: 45px;
+        letter-spacing: 0.2em;
+        margin: 0 0 -15px 0;
+    }
+    &__title {
+        font-family: 'Arsenal';
+        font-size: 144px;
+        text-transform: uppercase;
+        margin: 0;
+        margin-bottom: 18px;
+    }
+}
+.header-search {
+    &-form {
+        // position: relative
+        display: flex;
+        justify-content: center;
+    }
+    &__title {
+        font-family: 'Open Sans';
+        font-style: italic;
+        font-size: 18px;
+        letter-spacing: 0.1em;
+    }
+    &__input {
+        width: 476px;
+        height: 76px;
+        border: none;
+        border-radius: 10px 0 0 10px;
+        font-family: 'Open Sans';
+        font-size: 19px;
+        padding-left: 34px;
+        outline: none;
+        left: 0;
+    }
+    &__button {
+        background-color: $black;
+        width: 97px;
+        height: 76px;
+        border-radius: 0 10px 10px 0;
+        &:after {
+            content: url(../img/svg/search.svg);
+            // position: absolute;
+            // left: 39px;
+            // top: 26px;
+        }
+        // &:before {
+        //     content: "";
+        //     display: block;
+        //     width: 20px;
+        //     height: 20px;
+        //     background-color: blue($color: blue);
+        // }
+    }
+}
+
+
+// Features
+.header-features {
+    max-width: 1348px;
+    margin: 0 auto 275px;
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    justify-content: space-between;
+}
+.header-feature {
+    &__img-wrapper {
+        min-height: 70px;
+        overflow: hidden;
+        position: relative;
+    }
+    &__img {
+        position: absolute;
+        bottom: 0;
+    }
+    &__title {
+    font-family: 'Arsenal';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 170%;
+    margin-top: 20px;
+    margin-bottom: 4px;
+    }
+    &__description {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-size: 16px;
+        line-height: 170%;
+    }
+}
+
+// About
+.header-about {
+    margin-bottom: 190px;
+    max-width: 1230px;
+    display: flex;
+    justify-content: space-between;
+    &__title {
+        max-width: 540px;
+        font-family: 'Arsenal';
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 60px;
+    }
+    &__description {
+        max-width: 540px;
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 170%;
     }
 }

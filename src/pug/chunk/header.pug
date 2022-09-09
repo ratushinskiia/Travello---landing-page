@@ -1,7 +1,7 @@
 section.header 
     .header-top.content
         .header-contacts 
-            a(href="mailto: info@yourcommpany.com").header-email.email info@yourcommpany.com
+            a(href="mailto: info@yourcommpany.com").header-email.email info@yourcompany.com
             a(href="#").header-phone.phone +001 235 1245 2356
         .header-social.social
             a(href="#").social__link
@@ -25,9 +25,9 @@ section.header
                 <path d="M17.895 3.48828C17.9653 4.75391 18.0005 6.00781 18.0005 7.25C18.0005 8.49219 17.9653 9.74609 17.895 11.0117C17.895 11.8086 17.6372 12.4883 17.1216 13.0508C16.6294 13.5898 16.02 13.8594 15.2935 13.8594C13.4888 13.9531 11.3911 14 9.00049 14C6.60986 14 4.51221 13.9531 2.70752 13.8594C1.98096 13.8594 1.35986 13.5898 0.844238 13.0508C0.352051 12.4883 0.105957 11.8086 0.105957 11.0117C0.0356445 9.74609 0.000488281 8.49219 0.000488281 7.25C0.000488281 6.42969 0.0473633 5.17578 0.141113 3.48828C0.141113 2.69141 0.387207 2.02344 0.879395 1.48438C1.37158 0.921875 1.98096 0.640625 2.70752 0.640625C4.41846 0.546875 6.41064 0.5 8.68408 0.5H9.00049H9.31689C11.5903 0.5 13.5825 0.546875 15.2935 0.640625C16.02 0.640625 16.6294 0.921875 17.1216 1.48438C17.6372 2.02344 17.895 2.69141 17.895 3.48828ZM7.27783 10.6953L12.3755 7.25L7.27783 3.76953V10.6953Z"/>
                 </svg>
     .header-content
-        .header-navigation.content
+        .content.header-navigation
             .header-navigation__logo.logo
-                a(href="#") travello.
+                a(href="#") travello
             nav.header-navigation__element
                 a(href="#").header-navigation__link home
                 a(href="#").header-navigation__link about
@@ -36,3 +36,22 @@ section.header
                 a(href="#").header-navigation__link login
                 .header-navigation__icon 
                     img(src="../img/svg/navigation-icon.svg" alt="Navigation icon")
+        .header-app.content
+            h2.header-app__subtitle the travel guide app
+            h1.header-app__title travello 
+            .header-search 
+                h3.header-search__title Travel booking just a click away
+                form.header-search-form
+                    input(type="text" name="search" placeholder="Where do you want to go?").header-search__input
+                    button.header-search__button.button
+        .header-features.content
+            each item in headerFeatures
+                .header-feature
+                    .header-feature__img-wrapper 
+                        img(src=item.imgSrc).header-feature__img
+                    h3.header-feature__title= item.title
+                    p.header-feature__description= item.description
+        .header-about.content
+            h2.header-about__title Easily Find awesome places to travel this year
+            p.header-about__description Leo elementum ac nisl donec eget turpis gravida. Sit tellus ultricies in urna, odio sagittis est egestas vel. Venenatis amet, tempus porttitor dolor adipiscing nascetur. Neque commodo neque varius tellus diam. Ultrices quam quisque sit eget integer pretium massa congue nunc.
+
