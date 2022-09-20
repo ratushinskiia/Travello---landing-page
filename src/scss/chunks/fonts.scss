@@ -78,4 +78,45 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'DM Serif Display';
+    src: url('../font/DMSerifDisplay-italic.eot');
+    src: url('../font/DMSerifDisplay-italic.eot?#iefix') format('embedded-opentype'),
+        url("../font/DMSerifDisplay-italic.woff2") format('woff2'),
+        url("../font/DMSerifDisplay-italic.woff") format('woff'),
+        url("../font/DMSerifDisplay-italic.ttf") format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'DM Serif Display';
+    src: url('../font/DMSerifDisplay-Regular.eot');
+    src: url('../font/DMSerifDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url("../font/DMSerifDisplay-Regular.woff2") format('woff2'),
+        url("../font/DMSerifDisplay-Regular.woff") format('woff'),
+        url("../font/DMSerifDisplay-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font/Roboto-Regular.eot');
+    src: url('../font/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url("../font/Roboto-Regular.woff2") format('woff2'),
+        url("../font/Roboto-Regular.woff") format('woff'),
+        url("../font/Roboto-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url('../font/Roboto-Bold.eot');
+    src: url('../font/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+        url("../font/Roboto-Bold.woff2") format('woff2'),
+        url("../font/Roboto-Bold.woff") format('woff'),
+        url("../font/Roboto-Bold.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
 

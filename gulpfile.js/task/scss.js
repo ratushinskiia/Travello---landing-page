@@ -25,12 +25,6 @@ const gulpIf = require("gulp-if");
 // SCSS Rendering
 const scss = function () {
     return src(path.scss.src, {sourcemaps: isDev})
-        .pipe(plumber({
-            errorHandler: notify.onError(error => ({
-                title: "SCSS",
-                message: error.message
-            }))
-        }))
         .pipe(sassGlob()) // @import "block/*.scss" (all files)
         .pipe(sass())
         .pipe(shorthand())

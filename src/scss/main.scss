@@ -16,6 +16,11 @@ a, a:link, a:visited {
     color: $white;
 }
 
+ol, ul {
+	list-style: none;
+    padding: 0;
+}
+
 .container {
     max-width: 1920px;
     margin: auto;
@@ -25,11 +30,17 @@ a, a:link, a:visited {
     margin: 0 auto;
 }
 
-.button {
+button {
     border: none;
     cursor: pointer;
 }
-
+.item-button {
+    background-color: #0059AC;
+    border-radius: 8px;
+    color: $white;
+    font-family: 'Open Sans';
+    font-style: normal;
+}
 .logo {
     font-size: 36px;
     font-family: "Righteous", sans-serif;

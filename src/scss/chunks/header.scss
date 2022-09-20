@@ -20,7 +20,7 @@
         background-image: url("../img/svg/email.svg") no-repeat;
         width: 24px;
         height: 24px;
-        padding-right: 12px;
+        margin-right: 12px;
     }
     &-phone {
         display: flex;
@@ -32,17 +32,18 @@
         background-image: url("../img/svg/phone.svg") no-repeat;
         width: 24px;
         height: 24px;
-        padding-right: 12px;
+        margin-right: 12px;
     }
 }
 .social {
     display: flex;
     align-items: center;
     text-align: center;
-    width: 247px;
+    width: 267px;
     justify-content: space-between;
-    &__link svg {
+    &__link > svg {
         padding: 0 10px;
+        width: 100%;
         fill: #a1a1a1;
         transition: all .3s ease;
         &:hover {
@@ -53,6 +54,7 @@
 
 // Navigation
 .header-content {
+    background-repeat: no-repeat;
     background-position: center center;
     background-image: url("../img/header-bg.jpg");
     background-size: cover;
@@ -130,23 +132,13 @@
         left: 0;
     }
     &__button {
-        background-color: $black;
+        background-color: $black-btn;
         width: 97px;
         height: 76px;
         border-radius: 0 10px 10px 0;
         &:after {
             content: url(../img/svg/search.svg);
-            // position: absolute;
-            // left: 39px;
-            // top: 26px;
         }
-        // &:before {
-        //     content: "";
-        //     display: block;
-        //     width: 20px;
-        //     height: 20px;
-        //     background-color: blue($color: blue);
-        // }
     }
 }
 
@@ -188,7 +180,7 @@
 
 // About
 .header-about {
-    margin-bottom: 190px;
+    padding-bottom: 190px;
     max-width: 1230px;
     display: flex;
     justify-content: space-between;
