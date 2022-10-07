@@ -1,0 +1,9 @@
+.highlights {
+    max-width: 1260px;
+    margin-bottom: 160px;
+    &-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 160px 70px;
+    }
+}

@@ -1,0 +1,13 @@
+.footer {
+    max-width: 1400px;
+    border-top: 1px solid rgba(0, 89, 172, 0.4);
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 214%;
+    color: $body-text-gray;
+}

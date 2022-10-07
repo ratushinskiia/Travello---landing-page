@@ -49,4 +49,27 @@ button {
     line-height: 45px;
 }
 
+.section-title {
+    max-width: 540px;
+    font-family: 'Arsenal';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+}
+.section-description {
+    max-width: 540px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 170%;
+    color: $body-text-gray;
+}
+
+// Media queries
+@media(max-width: 1800px) {
+    .content {
+        padding: 0 20px;
+    }
+}
+
 @import './chunks/*.scss';

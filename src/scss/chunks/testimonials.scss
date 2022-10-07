@@ -1,0 +1,54 @@
+.testimonials {
+    max-width: 1030px;
+    margin-bottom: 250px;
+    &-slider{
+        display: flex;
+    }
+    &-img {
+        margin-right: 100px;
+        margin-top: 77px;
+    }
+    &-content {
+        &__quote {
+            font-family: 'Arsenal';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 170%;
+        }
+        &__author {
+            font-family: 'Open Sans';
+            font-style: normal;
+            color: $body-text-gray;
+        }
+        &__company {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 180%;
+        }
+    }
+}
+
+.swiper-wrapper {
+    margin-bottom: 62px;
+}
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    padding: 0 0;
+    position: relative;
+    &-active{
+        top: -2px;
+        width: 12px;
+        height: 12px;
+        transition: all .5s ease;
+        &::after {
+            margin-left: -9px;
+        }
+        }
+}
+.swiper-pagination-bullet::after {
+    content: "";
+    padding: 10px 15px;
+    margin-left: -11px;
+}
