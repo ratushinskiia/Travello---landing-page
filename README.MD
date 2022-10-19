@@ -3,4 +3,4 @@ HTML, CSS, Javascript, Gulp, Swiper.js.
 
 ___
 
-You can see it here: https://ratushinskiia.github.io/Hungry-people/
+You can see it here: https://ratushinskiia.github.io/Travello---landing-page/
