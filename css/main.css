@@ -312,7 +312,7 @@ button {
 
 @font-face {
   font-family: "DM Serif Display";
-  src: url("../font/DMSerifDisplay-italic.eot");
+  src: url("../font/DMSerifDisplay-italic.eot"); 
   src: url("../font/DMSerifDisplay-italic.eot?#iefix") format("embedded-opentype"), url("../font/DMSerifDisplay-italic.woff2") format("woff2"), url("../font/DMSerifDisplay-italic.woff") format("woff"), url("../font/DMSerifDisplay-italic.ttf") format("truetype");
   font-weight: normal;
   font-style: italic;
