@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var swip
   \***************************************/
 /***/ (function(module) {
 
-eval("const menuOpen = document.querySelector('.header-navigation__icon');\r\nconst menuClose = document.querySelector('.header-navigation__icon-close');\r\nconst menu = document.querySelector('.header-navigation__element');\r\nmenuOpen.addEventListener('click', function (){\r\n    menu.classList.add('active')\r\n})\r\nmenuClose.addEventListener('click', function (){\r\n    menu.classList.remove('active')\r\n})\r\n\r\nconsole.log(menuOpen);\r\nconsole.log(menu);\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nmodule.exports = menuOpen;\n\n//# sourceURL=webpack://gulp-starter/./src/js/modules/burger-menu.js?");
+eval("const menuOpen = document.querySelector('.header-navigation__icon');\r\nconst menuClose = document.querySelector('.header-navigation__icon-close');\r\nconst menu = document.querySelector('.header-navigation__element');\r\nmenuOpen.addEventListener('click', function (){\r\n    menu.classList.add('active')\r\n})\r\nmenuClose.addEventListener('click', function (){\r\n    menu.classList.remove('active')\r\n})\r\n\r\n\r\nmodule.exports = menuOpen;\n\n//# sourceURL=webpack://gulp-starter/./src/js/modules/burger-menu.js?");
 
 /***/ }),
 

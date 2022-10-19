@@ -38,22 +38,23 @@ section.header
                 a(href="#").header-navigation__link login
                 .header-navigation__icon-close 
                     img(src="../img/svg/close.svg", alt="Navigation close", width="24px")
-        //- .header-app.content
-        //-     h2.header-app__subtitle the travel guide app
-        //-     h1.header-app__title travello 
-        //-     .header-search 
-        //-         h3.header-search__title Travel booking just a click away
-        //-         form.header-search-form
-        //-             input(type="text" name="search" placeholder="Where do you want to go?").header-search__input
-        //-             button.header-search__button.button
-        //- .header-features.content
-        //-     each item in headerFeatures
-        //-         .header-feature
-        //-             .header-feature__img-wrapper 
-        //-                 img(src=item.imgSrc).header-feature__img
-        //-             h3.header-feature__title= item.title
-        //-             p.header-feature__description= item.description
-        //- .header-about.content
-        //-     h2.header-about__title.section-title Easily Find awesome places to travel this year
-        //-     p.header-about__description.section-description Leo elementum ac nisl donec eget turpis gravida. Sit tellus ultricies in urna, odio sagittis est egestas vel. Venenatis amet, tempus porttitor dolor adipiscing nascetur. Neque commodo neque varius tellus diam. Ultrices quam quisque sit eget integer pretium massa congue nunc.
+        .header-app
+            .header-app-content.content
+                h2.header-app__subtitle the travel guide app
+                h1.header-app__title travello 
+                .header-search 
+                    h3.header-search__title Travel booking just a click away
+                    form.header-search-form
+                        input(type="text" name="search" placeholder="Where do you want to go?").header-search__input
+                        button.header-search__button.button
+        .header-features.content
+            each item in headerFeatures
+                .header-feature
+                    .header-feature__img-wrapper 
+                        img(src=item.imgSrc).header-feature__img
+                    h3.header-feature__title= item.title
+                    p.header-feature__description= item.description
+        .header-about.content
+            h2.header-about__title.section-title Easily Find awesome places to travel this year
+            p.header-about__description.section-description Leo elementum ac nisl donec eget turpis gravida. Sit tellus ultricies in urna, odio sagittis est egestas vel. Venenatis amet, tempus porttitor dolor adipiscing nascetur. Neque commodo neque varius tellus diam. Ultrices quam quisque sit eget integer pretium massa congue nunc.
 

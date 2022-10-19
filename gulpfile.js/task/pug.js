@@ -33,5 +33,5 @@ const pug = function () {
         .pipe(gulpIf(app.isDev, prettyHtml()))
         .pipe(dest(path.pug.dest))
 }
-""
+
 module.exports = pug;

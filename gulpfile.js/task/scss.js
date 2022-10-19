@@ -7,7 +7,6 @@ const app = require('../config/app.js')
 
 // Plugins
 const plumber = require ('gulp-plumber');
-const notify = require ('gulp-notify');
 const autoprefixer = require ('gulp-autoprefixer');
 const csso = require ('gulp-csso');
 const rename = require ('gulp-rename');
@@ -18,7 +17,6 @@ const sass = require ('gulp-sass')(require('sass'));
 const sassGlob = require ('gulp-sass-glob');
 const webpCss = require ('gulp-webp-css'); 
 const { isDev } = require("../config/app.js");
-const { isProd } = require("../config/app.js");
 const gulpIf = require("gulp-if");
 
 

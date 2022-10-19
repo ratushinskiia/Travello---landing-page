@@ -1,21 +1,21 @@
 [
     {
-        "imgSrc": "../img/svg/header-options.svg",
+        "imgSrc": "./img/svg/header-options.svg",
         "title": "100+ Options",
         "description": "At in proin consequat ut cursus venenatis sapien."
     },
     {
-        "imgSrc": "../img/svg/header-quality.svg",
+        "imgSrc": "./img/svg/header-quality.svg",
         "title": "Good Quality",
         "description": "At in proin consequat ut cursus venenatis sapien."
     },
     {
-        "imgSrc": "../img/svg/header-interface.svg",
+        "imgSrc": "./img/svg/header-interface.svg",
         "title": "Easy Interface",
         "description": "At in proin consequat ut cursus venenatis sapien."
     },
     {
-        "imgSrc": "../img/svg/header-code.svg",
+        "imgSrc": "./img/svg/header-code.svg",
         "title": "Tracking Code",
         "description": "At in proin consequat ut cursus venenatis sapien."
     }

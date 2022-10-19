@@ -52,3 +52,15 @@
     padding: 10px 15px;
     margin-left: -11px;
 }
+@media (max-width: 768px) {
+    .testimonials-img {
+        margin-right: 25px;
+        margin-top: 50px;
+    }
+    .testimonials-content__quote {
+        font-size: 24px;
+    }
+    .testimonials-img img {
+        max-width: 50px;
+    }
+}

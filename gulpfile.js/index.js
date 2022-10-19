@@ -14,16 +14,20 @@ const js = require('./task/js.js')
 const img = require('./task/img.js')
 const font = require('./task/font.js')
 
-
-// Server
-const server = () => {
-    browserSync.init ({
-        server: {
-            baseDir: path.root
-        }
-    })
+function reload(done) {
+    server.reload();
+    done();
 }
 
+// Server
+const server = (done) => {
+    browserSync.init({
+    server: {
+        baseDir: path.root
+    }
+    });
+    done();
+}
 
 // Watcher
 const watcher = () => {
@@ -32,7 +36,7 @@ const watcher = () => {
     watch(path.js.watch, js).on("all", browserSync.reload)
     watch(path.img.watch, img).on("all", browserSync.reload)
     watch(path.font.watch, font).on("all", browserSync.reload)
-}
+};
 
 
 const build = series(

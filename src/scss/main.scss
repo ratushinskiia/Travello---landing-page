@@ -35,7 +35,7 @@ button {
     cursor: pointer;
 }
 .item-button {
-    background-color: #0059AC;
+    background-color: #0059ac;
     border-radius: 8px;
     color: $white;
     font-family: 'Open Sans';
@@ -63,6 +63,7 @@ button {
     font-size: 17px;
     line-height: 170%;
     color: $body-text-gray;
+    padding-left: 10px;
 }
 
 // Media queries

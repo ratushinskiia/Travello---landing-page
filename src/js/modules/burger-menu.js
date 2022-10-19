@@ -8,14 +8,5 @@ menuClose.addEventListener('click', function (){
     menu.classList.remove('active')
 })
 
-console.log(menuOpen);
-console.log(menu);
-
-
-
-
-
-
-
 
 module.exports = menuOpen;
