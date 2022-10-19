@@ -166,15 +166,12 @@
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
         row-gap: 50px;
-        column-gap: 10px;
+        column-gap: 20px;
     }
     .hotels-item__img {
         max-width: none;
         width: 100%;
         object-fit: cover;
-    }
-    .hotels-item {
-        max-width: 400px;
     }
 }
 @media (max-width: 768px) {
