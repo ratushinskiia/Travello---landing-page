@@ -1,120 +1,120 @@
 @font-face {
-    font-family: 'Arsenal';
-    src: url('./font/Arsenal-Regular.eot');
-    src: url('./font/Arsenal-Regular.eot?#iefix') format('embedded-opentype'),
-        url("./font/Arsenal-Regular.woff2") format('woff2'),
-        url("./font/Arsenal-Regular.woff") format('woff'),
-        url("./font/Arsenal-Regular.ttf") format('truetype');
+    font-family: "Arsenal";
+    src: url(".../font/Arsenal-Regular.eot");
+    src: url("../font/Arsenal-Regular.eot?#iefix") format("embedded-opentype"),
+        url("../font/Arsenal-Regular.woff2") format("woff2"),
+        url("../font/Arsenal-Regular.woff") format("woff"),
+        url("../font/Arsenal-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Arsenal';
-    src: url('./font/Arsenal-Bold.eot');
-    src: url('./font/Arsenal-Bold.eot?#iefix') format('embedded-opentype'),
-        url("./font/Arsenal-Bold.woff2") format('woff2'),
-        url("./font/Arsenal-Bold.woff") format('woff'),
-        url("./font/Arsenal-Bold.ttf") format('truetype');
+    font-family: "Arsenal";
+    src: url("../font/Arsenal-Bold.eot");
+    src: url("../font/Arsenal-Bold.eot?#iefix") format("embedded-opentype"),
+        url("../font/Arsenal-Bold.woff2") format("woff2"),
+        url("../font/Arsenal-Bold.woff") format("woff"),
+        url("../font/Arsenal-Bold.ttf") format("truetype");
     font-weight: 700;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Arsenal';
-    src: url('./font/Arsenal-italic.eot');
-    src: url('./font/Arsenal-italic.eot?#iefix') format('embedded-opentype'),
-        url("./font/Arsenal-italic.woff2") format('woff2'),
-        url("./font/Arsenal-italic.woff") format('woff'),
-        url("./font/Arsenal-italic.ttf") format('truetype');
+    font-family: "Arsenal";
+    src: url("../font/Arsenal-italic.eot");
+    src: url("../font/Arsenal-italic.eot?#iefix") format("embedded-opentype"),
+        url("../font/Arsenal-italic.woff2") format("woff2"),
+        url("../font/Arsenal-italic.woff") format("woff"),
+        url("../font/Arsenal-italic.ttf") format("truetype");
     font-weight: normal;
     font-style: italic;
 }
 @font-face {
-    font-family: 'Open Sans';
-    src: url('./font/OpenSans-Regular.eot');
-    src: url('./font/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
-        url("./font/OpenSans-Regular.woff2") format('woff2'),
-        url("./font/OpenSans-Regular.woff") format('woff'),
-        url("./font/OpenSans-Regular.ttf") format('truetype');
+    font-family: "Open Sans";
+    src: url("../font/OpenSans-Regular.eot");
+    src: url("../font/OpenSans-Regular.eot?#iefix") format("embedded-opentype"),
+        url("../font/OpenSans-Regular.woff2") format("woff2"),
+        url("../font/OpenSans-Regular.woff") format("woff"),
+        url("../font/OpenSans-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Open Sans';
-    src: url('./font/OpenSans-Bold.eot');
-    src: url('./font/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
-        url("./font/OpenSans-Bold.woff2") format('woff2'),
-        url("./font/OpenSans-Bold.woff") format('woff'),
-        url("./font/OpenSans-Bold.ttf") format('truetype');
+    font-family: "Open Sans";
+    src: url("../font/OpenSans-Bold.eot");
+    src: url("../font/OpenSans-Bold.eot?#iefix") format("embedded-opentype"),
+        url("../font/OpenSans-Bold.woff2") format("woff2"),
+        url("../font/OpenSans-Bold.woff") format("woff"),
+        url("../font/OpenSans-Bold.ttf") format("truetype");
     font-weight: bold;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Open Sans';
-    src: url('./font/OpenSans-SemiBold.eot');
-    src: url('./font/OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url("./font/OpenSans-SemiBold.woff2") format('woff2'),
-        url("./font/OpenSans-SemiBold.woff") format('woff'),
-        url("./font/OpenSans-SemiBold.ttf") format('truetype');
+    font-family: "Open Sans";
+    src: url("../font/OpenSans-SemiBold.eot");
+    src: url("../font/OpenSans-SemiBold.eot?#iefix") format("embedded-opentype"),
+        url("../font/OpenSans-SemiBold.woff2") format("woff2"),
+        url("../font/OpenSans-SemiBold.woff") format("woff"),
+        url("../font/OpenSans-SemiBold.ttf") format("truetype");
     font-weight: 600;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Open Sans';
-    src: url('./font/OpenSans-Italic.eot');
-    src: url('./font/OpenSans-Italic.eot?#iefix') format('embedded-opentype'),
-        url("./font/OpenSans-Italic.woff2") format('woff2'),
-        url("./font/OpenSans-Italic.woff") format('woff'),
-        url("./font/OpenSans-Italic.ttf") format('truetype');
+    font-family: "Open Sans";
+    src: url("../font/OpenSans-Italic.eot");
+    src: url("../font/OpenSans-Italic.eot?#iefix") format("embedded-opentype"),
+        url("../font/OpenSans-Italic.woff2") format("woff2"),
+        url("../font/OpenSans-Italic.woff") format("woff"),
+        url("../font/OpenSans-Italic.ttf") format("truetype");
     font-weight: normal;
     font-style: italic;
 }
 @font-face {
-    font-family: 'Righteous';
-    src: url('./font/Righteous-Regular.eot');
-    src: url('./font/Righteous-Regular.eot?#iefix') format('embedded-opentype'),
-        url("./font/Righteous-Regular.woff2") format('woff2'),
-        url("./font/Righteous-Regular.woff") format('woff'),
-        url("./font/Righteous-Regular.ttf") format('truetype');
+    font-family: "Righteous";
+    src: url("../font/Righteous-Regular.eot");
+    src: url("../font/Righteous-Regular.eot?#iefix") format("embedded-opentype"),
+        url("../font/Righteous-Regular.woff2") format("woff2"),
+        url("../font/Righteous-Regular.woff") format("woff"),
+        url("../font/Righteous-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: 'DM Serif Display';
-    src: url('./font/DMSerifDisplay-italic.eot');
-    src: url('./font/DMSerifDisplay-italic.eot?#iefix') format('embedded-opentype'),
-        url("./font/DMSerifDisplay-italic.woff2") format('woff2'),
-        url("./font/DMSerifDisplay-italic.woff") format('woff'),
-        url("./font/DMSerifDisplay-italic.ttf") format('truetype');
+    font-family: "DM Serif Display";
+    src: url("../font/DMSerifDisplay-italic.eot");
+    src: url("../font/DMSerifDisplay-italic.eot?#iefix") format("embedded-opentype"),
+        url("../font/DMSerifDisplay-italic.woff2") format("woff2"),
+        url("../font/DMSerifDisplay-italic.woff") format("woff"),
+        url("../font/DMSerifDisplay-italic.ttf") format("truetype");
     font-weight: normal;
     font-style: italic;
 }
 @font-face {
-    font-family: 'DM Serif Display';
-    src: url('./font/DMSerifDisplay-Regular.eot');
-    src: url('./font/DMSerifDisplay-Regular.eot?#iefix') format('embedded-opentype'),
-        url("./font/DMSerifDisplay-Regular.woff2") format('woff2'),
-        url("./font/DMSerifDisplay-Regular.woff") format('woff'),
-        url("./font/DMSerifDisplay-Regular.ttf") format('truetype');
+    font-family: "DM Serif Display";
+    src: url("../font/DMSerifDisplay-Regular.eot");
+    src: url("../font/DMSerifDisplay-Regular.eot?#iefix") format("embedded-opentype"),
+        url("../font/DMSerifDisplay-Regular.woff2") format("woff2"),
+        url("../font/DMSerifDisplay-Regular.woff") format("woff"),
+        url("../font/DMSerifDisplay-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Roboto';
-    src: url('./font/Roboto-Regular.eot');
-    src: url('./font/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
-        url("./font/Roboto-Regular.woff2") format('woff2'),
-        url("./font/Roboto-Regular.woff") format('woff'),
-        url("./font/Roboto-Regular.ttf") format('truetype');
+    font-family: "Roboto";
+    src: url("../font/Roboto-Regular.eot");
+    src: url("../font/Roboto-Regular.eot?#iefix") format("embedded-opentype"),
+        url("../font/Roboto-Regular.woff2") format("woff2"),
+        url("../font/Roboto-Regular.woff") format("woff"),
+        url("../font/Roboto-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Roboto Bold';
-    src: url('./font/Roboto-Bold.eot');
-    src: url('./font/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
-        url("./font/Roboto-Bold.woff2") format('woff2'),
-        url("./font/Roboto-Bold.woff") format('woff'),
-        url("./font/Roboto-Bold.ttf") format('truetype');
+    font-family: "Roboto Bold";
+    src: url("../font/Roboto-Bold.eot");
+    src: url("../font/Roboto-Bold.eot?#iefix") format("embedded-opentype"),
+        url("../font/Roboto-Bold.woff2") format("woff2"),
+        url("../font/Roboto-Bold.woff") format("woff"),
+        url("../font/Roboto-Bold.ttf") format("truetype");
     font-weight: bold;
     font-style: normal;
 }
