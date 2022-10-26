@@ -80,8 +80,17 @@ input,
 optgroup,
 select,
 textarea {
-  font: 100%/1.15 inherit;
+  font-size: 100%;
+  line-height: 1.15;
   margin: 0;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
 }
 
 button,
@@ -336,7 +345,6 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-text-decoration-line: underline;
   text-decoration-line: underline;
 }
 
@@ -705,7 +713,6 @@ button {
 .hotels-item__price_old {
   font-style: italic;
   font-size: 22px;
-  -webkit-text-decoration-line: line-through;
   text-decoration-line: line-through;
   color: #B1B4B9;
   padding-right: 3px;
