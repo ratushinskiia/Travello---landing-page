@@ -265,6 +265,7 @@ button {
   /* IE9 Compat Modes */
   src: local(""), url("../font/arsenal-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../font/arsenal-v12-latin-regular.woff2") format("woff2"), url("../font/arsenal-v12-latin-regular.woff") format("woff"), url("../font/arsenal-v12-latin-regular.ttf") format("truetype"), url("../font/arsenal-v12-latin-regular.svg#Arsenal") format("svg");
   /* Legacy iOS */
+  font-display: swap;
 }
 
 /* arsenal-italic - latin */
@@ -277,6 +278,7 @@ button {
   /* IE9 Compat Modes */
   src: local(""), url("../font/arsenal-v12-latin-italic.eot?#iefix") format("embedded-opentype"), url("../font/arsenal-v12-latin-italic.woff2") format("woff2"), url("../font/arsenal-v12-latin-italic.woff") format("woff"), url("../font/arsenal-v12-latin-italic.ttf") format("truetype"), url("../font/arsenal-v12-latin-italic.svg#Arsenal") format("svg");
   /* Legacy iOS */
+  font-display: swap;
 }
 
 /* arsenal-700 - latin */
@@ -289,6 +291,7 @@ button {
   /* IE9 Compat Modes */
   src: local(""), url("../font/arsenal-v12-latin-700.eot?#iefix") format("embedded-opentype"), url("../font/arsenal-v12-latin-700.woff2") format("woff2"), url("../font/arsenal-v12-latin-700.woff") format("woff"), url("../font/arsenal-v12-latin-700.ttf") format("truetype"), url("../font/arsenal-v12-latin-700.svg#Arsenal") format("svg");
   /* Legacy iOS */
+  font-display: swap;
 }
 
 @font-face {
@@ -346,6 +349,7 @@ button {
   /* IE9 Compat Modes */
   src: local(""), url("../font/dm-serif-display-v10-latin-regular.eot?#iefix") format("embedded-opentype"), url("../font/dm-serif-display-v10-latin-regular.woff2") format("woff2"), url("../font/dm-serif-display-v10-latin-regular.woff") format("woff"), url("../font/dm-serif-display-v10-latin-regular.ttf") format("truetype"), url("../font/dm-serif-display-v10-latin-regular.svg#DMSerifDisplay") format("svg");
   /* Legacy iOS */
+  font-display: swap;
 }
 
 /* dm-serif-display-italic - latin */
@@ -358,6 +362,7 @@ button {
   /* IE9 Compat Modes */
   src: local(""), url("../font/dm-serif-display-v10-latin-italic.eot?#iefix") format("embedded-opentype"), url("../font/dm-serif-display-v10-latin-italic.woff2") format("woff2"), url("../font/dm-serif-display-v10-latin-italic.woff") format("woff"), url("../font/dm-serif-display-v10-latin-italic.ttf") format("truetype"), url("../font/dm-serif-display-v10-latin-italic.svg#DMSerifDisplay") format("svg");
   /* Legacy iOS */
+  font-display: swap;
 }
 
 @font-face {
