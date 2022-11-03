@@ -2,21 +2,33 @@
     {
         "imgSrc": "./img/svg/header-options.svg",
         "title": "100+ Options",
-        "description": "At in proin consequat ut cursus venenatis sapien."
+        "description": "At in proin consequat ut cursus venenatis sapien.",
+        "imgAlt": "Options image",
+        "imgWidth": "50",
+        "imgHeight": "50"
     },
     {
         "imgSrc": "./img/svg/header-quality.svg",
         "title": "Good Quality",
-        "description": "At in proin consequat ut cursus venenatis sapien."
+        "description": "At in proin consequat ut cursus venenatis sapien.",
+        "imgAlt": "Quality image",
+        "imgWidth": "50",
+        "imgHeight": "62"
     },
     {
         "imgSrc": "./img/svg/header-interface.svg",
         "title": "Easy Interface",
-        "description": "At in proin consequat ut cursus venenatis sapien."
+        "description": "At in proin consequat ut cursus venenatis sapien.",
+        "imgAlt": "Interface image",
+        "imgWidth": "50",
+        "imgHeight": "50"
     },
     {
         "imgSrc": "./img/svg/header-code.svg",
         "title": "Tracking Code",
-        "description": "At in proin consequat ut cursus venenatis sapien."
+        "description": "At in proin consequat ut cursus venenatis sapien.",
+        "imgAlt": "Tracking image",
+        "imgWidth": "50",
+        "imgHeight": "50"
     }
 ]

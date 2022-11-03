@@ -11,6 +11,8 @@ const notify = require ('gulp-notify');
 const size = require ('gulp-size'); //show size of files before and after in terminal
 const gulpPug = require ('gulp-pug'); 
 const webpHtml = require ('gulp-webp-html'); 
+const webpHtmlNoSvg = require ('gulp-webp-html-nosvg'); 
+const gulpHtmlImgWrapper = require ('gulp-html-img-wrapper');
 const prettyHtml = require ('gulp-pretty-html'); 
 const gulpIf = require("gulp-if");
 
@@ -29,7 +31,12 @@ const pug = function () {
                 headerFeatures: require("../data/header-features.json")
             }
         }))
-        .pipe(webpHtml())        
+        .pipe(
+            gulpHtmlImgWrapper({
+                logger: true,
+                extensions: ['.jpg', '.png', '.jpeg'],
+            })
+        )       
         .pipe(gulpIf(app.isDev, prettyHtml()))
         .pipe(dest(path.pug.dest))
 }

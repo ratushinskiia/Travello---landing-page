@@ -7,7 +7,10 @@
         gap: 160px 70px;
     }
 }
-
+.highlights-content-media-img {
+    max-width: 100%;
+    height: auto;
+}
 @media (max-width: 1440px) {
     .highlights-content-media-img img {
         max-width: 450px;

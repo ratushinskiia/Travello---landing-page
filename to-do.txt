@@ -4,3 +4,4 @@
 Подключение шрифтов упростить *Waiting никак не сохкратить?
 adaptive hotels at 1440 and below - not good *DONE
 hotels menu to top of hotels section *DONE
+font: 100%/1.15; - invalid propery value
